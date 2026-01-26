@@ -72,5 +72,72 @@ else
 }
 
 
-Console.WriteLine("Bai 2 ");
-Console.WriteLine("Bai 3 ");
+Console.WriteLine("Bai 2");
+Console.Write("Nhap chuoi: ");
+string input = Console.ReadLine();
+
+if (input == null)
+{
+    Console.WriteLine("So tu: 0");
+}
+else
+{
+    input = input.Trim();
+    if (input == "")
+    {
+        Console.WriteLine("So tu: 0");
+    }
+    else
+    {
+        string[] words = input.Split(' ');
+        int count = 0;
+
+        foreach (string word in words)
+        {
+            if (word != "")
+                count++;
+        }
+
+        Console.WriteLine("So tu: " + count);
+    }
+}
+
+
+Console.WriteLine("Bai 3");
+Console.Write("Nhap chuoi: ");
+string str = Console.ReadLine();
+
+if (str == null)
+{
+    Console.WriteLine("Chuoi KHONG doi xung");
+}
+else
+{
+    string s = "";
+
+    foreach (char c in str)
+    {
+        if (c != ' ')
+            s += c;
+    }
+
+    bool doiXung = true;
+    int left = 0;
+    int right = s.Length - 1;
+
+    while (left < right)
+    {
+        if (s[left] != s[right])
+        {
+            doiXung = false;
+            break;
+        }
+        left++;
+        right--;
+    }
+
+    if (doiXung)
+        Console.WriteLine("Chuoi DOI XUNG");
+    else
+        Console.WriteLine("Chuoi KHONG doi xung");
+}
