@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Me8qgMQLf0=",
+  "success": true,
+  "projectFilePath": "/home/dinh/RiderProjects/BT Chuooix/BT Chuooix/BT Chuooix.csproj",
+  "expectedPackageFiles": [
+    "/home/dinh/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
