@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BT Chuooix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65f98eb15c938ac8b632fd7f0c9716ed6be3a81d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e1503522f2c9d8f2877d7f949b517728b7ad5e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("BT Chuooix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BT Chuooix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
